@@ -32,7 +32,7 @@ async def hi(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def time(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f'{time}')
 
-app = ApplicationBuilder().token("5890192989:AAFejDEUaZmVwaXY8X1CcauWytiisoE3paI").build()
+app = ApplicationBuilder().token("").build()
 
 app.add_handler(CommandHandler("NY", days2NewYear))
 

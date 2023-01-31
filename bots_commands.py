@@ -7,3 +7,6 @@ async def hi_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
 
 async def time_command(update: Update, context: ContextTypes.DEFAULT_TYPE) :
     await update.message.reply_text(f'{datetime.datetime.now().time()}')
+
+# async def daysForNewYear(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    # await update.message.replay_text(f'{daysForNewYear()}')
